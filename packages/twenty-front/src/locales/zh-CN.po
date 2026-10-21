@@ -3430,7 +3430,9 @@ msgid "Apostrophe and dot"
 msgstr "撇号和点"
 
 #. js-lingui-id: LMUw1U
+#: src/modules/log-console/constants/LogConsoleApplicationLogAppColumn.tsx
 #: src/modules/log-console/constants/LogConsoleApplicationLogFilterFields.tsx
+#: src/modules/log-console/constants/LogConsoleSources.tsx
 #: src/modules/settings/app-preferences/components/SettingsAppPreferencesAppsSection.tsx
 #: src/modules/settings/data-model/object-details/components/SettingsObjectFieldTable.tsx
 #: src/modules/settings/data-model/object-details/components/SettingsObjectRelationsTable.tsx
@@ -7439,11 +7441,6 @@ msgstr "用于 OAuth 授权流程的凭据和权限范围"
 msgid "Credit balance"
 msgstr "积分余额"
 
-#. js-lingui-id: XLyliv
-#: src/pages/settings/applications/components/SettingsApplicationRegistrationInstallStats.tsx
-msgid "Credit consumption"
-msgstr "积分消耗"
-
 #. js-lingui-id: Woqoyp
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceBillingContent.tsx
 msgid "Credit consumption for the current period"
@@ -7554,9 +7551,13 @@ msgstr "已使用积分"
 
 #. js-lingui-id: yLljbQ
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceBillingContent.tsx
-#: src/pages/settings/applications/components/SettingsApplicationRegistrationInstallStats.tsx
 msgid "Credits used"
 msgstr "已使用积分"
+
+#. js-lingui-id: biuDTg
+#: src/pages/settings/applications/components/SettingsApplicationRegistrationInstallStats.tsx
+msgid "Credits used this month"
+msgstr ""
 
 #. js-lingui-id: e73uuf
 #: src/modules/ui/input/hooks/useColorLabels.ts
@@ -10899,7 +10900,6 @@ msgid "Executed copies"
 msgstr "已执行副本"
 
 #. js-lingui-id: t+R8+P
-#: src/modules/log-console/constants/LogConsoleApplicationLogColumns.tsx
 #: src/modules/log-console/constants/LogConsoleSources.tsx
 msgid "Execution"
 msgstr "执行"
@@ -13895,11 +13895,6 @@ msgstr "安装链接"
 msgid "Install shared tarball app"
 msgstr "安装共享的 tar 包应用"
 
-#. js-lingui-id: Ajf8Sb
-#: src/pages/settings/applications/components/SettingsApplicationRegistrationInstallStats.tsx
-msgid "Install statistics"
-msgstr "安装统计"
-
 #. js-lingui-id: lD6WqE
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
 msgid "Install the remote MCP server into a VS Code profile."
@@ -15525,11 +15520,6 @@ msgstr "您的套餐中的日志保留时长为 {proPlanEventLogRetentionInHours
 #: src/modules/log-console/hooks/useLogConsoleRetention.ts
 msgid "Logs are kept {retentionLabel}."
 msgstr "日志保留时长为 {retentionLabel}。"
-
-#. js-lingui-id: vOd7ZN
-#: src/modules/settings/admin-panel/constants/SettingsAdminFeatureFlagMetadata.ts
-msgid "Logs console"
-msgstr "日志控制台"
 
 #. js-lingui-id: MspNoT
 #: src/modules/log-console/components/LogConsole.tsx
@@ -23436,11 +23426,6 @@ msgstr "显示 {0}"
 msgid "Show {hiddenOptionalCount} optional arguments"
 msgstr "显示 {hiddenOptionalCount} 个可选参数"
 
-#. js-lingui-id: 3MO9Sa
-#: src/modules/settings/admin-panel/constants/SettingsAdminFeatureFlagMetadata.ts
-msgid "Show a logs console at the bottom of the app in Advanced mode."
-msgstr "在高级模式下，在应用底部显示日志控制台。"
-
 #. js-lingui-id: lZw9AX
 #: src/pages/settings/applications/components/SettingsApplicationRegistrationInstalledWorkspaces.tsx
 msgid "Show all"
@@ -26149,11 +26134,6 @@ msgstr ""
 msgid "Total Count"
 msgstr "总数"
 
-#. js-lingui-id: TwCQ5l
-#: src/pages/settings/applications/components/SettingsApplicationRegistrationInstallStats.tsx
-msgid "Total credits used"
-msgstr "已使用的积分总数"
-
 #. js-lingui-id: /H9dXa
 #: src/modules/onboarding/components/free-credits/OnboardingFreeCreditsPopoverContent.tsx
 msgid "Total earned"
@@ -27557,10 +27537,10 @@ msgstr "用量分析需要 ClickHouse。请联系您的管理员。"
 msgid "Usage analytics will appear here once you start using credits."
 msgstr "在您开始消耗额度后，这里将显示使用分析。"
 
-#. js-lingui-id: h4601z
+#. js-lingui-id: o5dGi6
 #: src/pages/settings/applications/components/SettingsApplicationRegistrationInstallStats.tsx
-msgid "Usage attributed to this application in its current installing workspaces for the selected period. Updated every ten minutes."
-msgstr "所选期间内，此应用在当前已安装该应用的工作区中归属的使用量。每十分钟更新一次。"
+msgid "Usage attributed to this application in its current installing workspaces since the start of the month (UTC). Updated every ten minutes."
+msgstr ""
 
 #. js-lingui-id: hYXHVl
 #: src/modules/settings/usage/components/SettingsUsageAnalyticsSection.tsx

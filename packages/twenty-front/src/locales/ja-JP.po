@@ -3430,7 +3430,9 @@ msgid "Apostrophe and dot"
 msgstr "アポストロフィとドット"
 
 #. js-lingui-id: LMUw1U
+#: src/modules/log-console/constants/LogConsoleApplicationLogAppColumn.tsx
 #: src/modules/log-console/constants/LogConsoleApplicationLogFilterFields.tsx
+#: src/modules/log-console/constants/LogConsoleSources.tsx
 #: src/modules/settings/app-preferences/components/SettingsAppPreferencesAppsSection.tsx
 #: src/modules/settings/data-model/object-details/components/SettingsObjectFieldTable.tsx
 #: src/modules/settings/data-model/object-details/components/SettingsObjectRelationsTable.tsx
@@ -7439,11 +7441,6 @@ msgstr "OAuth 認可フローの認証情報とスコープ"
 msgid "Credit balance"
 msgstr "クレジット残高"
 
-#. js-lingui-id: XLyliv
-#: src/pages/settings/applications/components/SettingsApplicationRegistrationInstallStats.tsx
-msgid "Credit consumption"
-msgstr "クレジット消費"
-
 #. js-lingui-id: Woqoyp
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceBillingContent.tsx
 msgid "Credit consumption for the current period"
@@ -7554,9 +7551,13 @@ msgstr "クレジット使用済み"
 
 #. js-lingui-id: yLljbQ
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceBillingContent.tsx
-#: src/pages/settings/applications/components/SettingsApplicationRegistrationInstallStats.tsx
 msgid "Credits used"
 msgstr "クレジット使用済み"
+
+#. js-lingui-id: biuDTg
+#: src/pages/settings/applications/components/SettingsApplicationRegistrationInstallStats.tsx
+msgid "Credits used this month"
+msgstr ""
 
 #. js-lingui-id: e73uuf
 #: src/modules/ui/input/hooks/useColorLabels.ts
@@ -10899,7 +10900,6 @@ msgid "Executed copies"
 msgstr "締結済みコピー"
 
 #. js-lingui-id: t+R8+P
-#: src/modules/log-console/constants/LogConsoleApplicationLogColumns.tsx
 #: src/modules/log-console/constants/LogConsoleSources.tsx
 msgid "Execution"
 msgstr "実行"
@@ -13895,11 +13895,6 @@ msgstr "インストールリンク"
 msgid "Install shared tarball app"
 msgstr "共有 tarball アプリをインストール"
 
-#. js-lingui-id: Ajf8Sb
-#: src/pages/settings/applications/components/SettingsApplicationRegistrationInstallStats.tsx
-msgid "Install statistics"
-msgstr "インストール統計"
-
 #. js-lingui-id: lD6WqE
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
 msgid "Install the remote MCP server into a VS Code profile."
@@ -15525,11 +15520,6 @@ msgstr "ご利用のプランでは、ログは{proPlanEventLogRetentionInHours}
 #: src/modules/log-console/hooks/useLogConsoleRetention.ts
 msgid "Logs are kept {retentionLabel}."
 msgstr "ログは{retentionLabel}保持されます。"
-
-#. js-lingui-id: vOd7ZN
-#: src/modules/settings/admin-panel/constants/SettingsAdminFeatureFlagMetadata.ts
-msgid "Logs console"
-msgstr "ログコンソール"
 
 #. js-lingui-id: MspNoT
 #: src/modules/log-console/components/LogConsole.tsx
@@ -23436,11 +23426,6 @@ msgstr "{0}を表示"
 msgid "Show {hiddenOptionalCount} optional arguments"
 msgstr "任意の引数を{hiddenOptionalCount}件表示"
 
-#. js-lingui-id: 3MO9Sa
-#: src/modules/settings/admin-panel/constants/SettingsAdminFeatureFlagMetadata.ts
-msgid "Show a logs console at the bottom of the app in Advanced mode."
-msgstr "詳細モードで、アプリの下部にログコンソールを表示します。"
-
 #. js-lingui-id: lZw9AX
 #: src/pages/settings/applications/components/SettingsApplicationRegistrationInstalledWorkspaces.tsx
 msgid "Show all"
@@ -26149,11 +26134,6 @@ msgstr "合計"
 msgid "Total Count"
 msgstr "合計数"
 
-#. js-lingui-id: TwCQ5l
-#: src/pages/settings/applications/components/SettingsApplicationRegistrationInstallStats.tsx
-msgid "Total credits used"
-msgstr "使用したクレジットの合計"
-
 #. js-lingui-id: /H9dXa
 #: src/modules/onboarding/components/free-credits/OnboardingFreeCreditsPopoverContent.tsx
 msgid "Total earned"
@@ -27557,10 +27537,10 @@ msgstr "使用状況分析には ClickHouse が必要です。管理者に連絡
 msgid "Usage analytics will appear here once you start using credits."
 msgstr "クレジットを使い始めると、ここに利用状況分析が表示されます。"
 
-#. js-lingui-id: h4601z
+#. js-lingui-id: o5dGi6
 #: src/pages/settings/applications/components/SettingsApplicationRegistrationInstallStats.tsx
-msgid "Usage attributed to this application in its current installing workspaces for the selected period. Updated every ten minutes."
-msgstr "選択した期間について、このアプリケーションが現在インストールされているワークスペースに帰属する使用量です。10分ごとに更新されます。"
+msgid "Usage attributed to this application in its current installing workspaces since the start of the month (UTC). Updated every ten minutes."
+msgstr ""
 
 #. js-lingui-id: hYXHVl
 #: src/modules/settings/usage/components/SettingsUsageAnalyticsSection.tsx

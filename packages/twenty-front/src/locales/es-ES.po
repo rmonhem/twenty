@@ -3430,7 +3430,9 @@ msgid "Apostrophe and dot"
 msgstr "Apóstrofo y punto"
 
 #. js-lingui-id: LMUw1U
+#: src/modules/log-console/constants/LogConsoleApplicationLogAppColumn.tsx
 #: src/modules/log-console/constants/LogConsoleApplicationLogFilterFields.tsx
+#: src/modules/log-console/constants/LogConsoleSources.tsx
 #: src/modules/settings/app-preferences/components/SettingsAppPreferencesAppsSection.tsx
 #: src/modules/settings/data-model/object-details/components/SettingsObjectFieldTable.tsx
 #: src/modules/settings/data-model/object-details/components/SettingsObjectRelationsTable.tsx
@@ -7439,11 +7441,6 @@ msgstr "Credenciales y ámbitos para los flujos de autorización de OAuth"
 msgid "Credit balance"
 msgstr "Saldo de crédito"
 
-#. js-lingui-id: XLyliv
-#: src/pages/settings/applications/components/SettingsApplicationRegistrationInstallStats.tsx
-msgid "Credit consumption"
-msgstr "Consumo de créditos"
-
 #. js-lingui-id: Woqoyp
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceBillingContent.tsx
 msgid "Credit consumption for the current period"
@@ -7554,9 +7551,13 @@ msgstr "créditos utilizados"
 
 #. js-lingui-id: yLljbQ
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceBillingContent.tsx
-#: src/pages/settings/applications/components/SettingsApplicationRegistrationInstallStats.tsx
 msgid "Credits used"
 msgstr "Créditos utilizados"
+
+#. js-lingui-id: biuDTg
+#: src/pages/settings/applications/components/SettingsApplicationRegistrationInstallStats.tsx
+msgid "Credits used this month"
+msgstr ""
 
 #. js-lingui-id: e73uuf
 #: src/modules/ui/input/hooks/useColorLabels.ts
@@ -10899,7 +10900,6 @@ msgid "Executed copies"
 msgstr "Copias firmadas"
 
 #. js-lingui-id: t+R8+P
-#: src/modules/log-console/constants/LogConsoleApplicationLogColumns.tsx
 #: src/modules/log-console/constants/LogConsoleSources.tsx
 msgid "Execution"
 msgstr "Ejecución"
@@ -13895,11 +13895,6 @@ msgstr "Enlace de instalación"
 msgid "Install shared tarball app"
 msgstr "Instalar aplicación tarball compartida"
 
-#. js-lingui-id: Ajf8Sb
-#: src/pages/settings/applications/components/SettingsApplicationRegistrationInstallStats.tsx
-msgid "Install statistics"
-msgstr "Estadísticas de instalaciones"
-
 #. js-lingui-id: lD6WqE
 #: src/modules/settings/mcp/utils/buildMcpSetupCategories.tsx
 msgid "Install the remote MCP server into a VS Code profile."
@@ -15525,11 +15520,6 @@ msgstr "Los registros se conservan durante {proPlanEventLogRetentionInHours} hor
 #: src/modules/log-console/hooks/useLogConsoleRetention.ts
 msgid "Logs are kept {retentionLabel}."
 msgstr "Los registros se conservan durante {retentionLabel}."
-
-#. js-lingui-id: vOd7ZN
-#: src/modules/settings/admin-panel/constants/SettingsAdminFeatureFlagMetadata.ts
-msgid "Logs console"
-msgstr "Consola de registros"
 
 #. js-lingui-id: MspNoT
 #: src/modules/log-console/components/LogConsole.tsx
@@ -23436,11 +23426,6 @@ msgstr "Mostrar {0}"
 msgid "Show {hiddenOptionalCount} optional arguments"
 msgstr "Mostrar {hiddenOptionalCount} argumentos opcionales"
 
-#. js-lingui-id: 3MO9Sa
-#: src/modules/settings/admin-panel/constants/SettingsAdminFeatureFlagMetadata.ts
-msgid "Show a logs console at the bottom of the app in Advanced mode."
-msgstr "Muestra una consola de registros en la parte inferior de la aplicación en el modo avanzado."
-
 #. js-lingui-id: lZw9AX
 #: src/pages/settings/applications/components/SettingsApplicationRegistrationInstalledWorkspaces.tsx
 msgid "Show all"
@@ -26151,11 +26136,6 @@ msgstr ""
 msgid "Total Count"
 msgstr "Recuento total"
 
-#. js-lingui-id: TwCQ5l
-#: src/pages/settings/applications/components/SettingsApplicationRegistrationInstallStats.tsx
-msgid "Total credits used"
-msgstr "Total de créditos utilizados"
-
 #. js-lingui-id: /H9dXa
 #: src/modules/onboarding/components/free-credits/OnboardingFreeCreditsPopoverContent.tsx
 msgid "Total earned"
@@ -27559,10 +27539,10 @@ msgstr "Los análisis de uso requieren ClickHouse. Póngase en contacto con su a
 msgid "Usage analytics will appear here once you start using credits."
 msgstr "Las estadísticas de uso aparecerán aquí una vez que empieces a usar créditos."
 
-#. js-lingui-id: h4601z
+#. js-lingui-id: o5dGi6
 #: src/pages/settings/applications/components/SettingsApplicationRegistrationInstallStats.tsx
-msgid "Usage attributed to this application in its current installing workspaces for the selected period. Updated every ten minutes."
-msgstr "Uso atribuido a esta aplicación en los espacios de trabajo donde está instalada actualmente durante el período seleccionado. Se actualiza cada diez minutos."
+msgid "Usage attributed to this application in its current installing workspaces since the start of the month (UTC). Updated every ten minutes."
+msgstr ""
 
 #. js-lingui-id: hYXHVl
 #: src/modules/settings/usage/components/SettingsUsageAnalyticsSection.tsx
